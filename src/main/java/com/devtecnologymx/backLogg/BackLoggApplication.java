@@ -8,7 +8,7 @@ public class BackLoggApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BackLoggApplication.class, args);
-		System.out.println("HOLA");
+		System.out.println("HOLA A TODOS");
 	}
 
 }
