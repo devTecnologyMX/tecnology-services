@@ -11,9 +11,13 @@
 	<groupId>com.devtecnologymx</groupId>
 	<artifactId>backLogg</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>backLogg</name>
+    <packaging>pom</packaging>
+    <name>backLogg</name>
 	<description>Back del LOGG</description>
-	<properties>
+    <modules>
+        <module>tecnology-login-services</module>
+    </modules>
+    <properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
